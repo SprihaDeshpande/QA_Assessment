@@ -17,3 +17,6 @@ Scenario: Test Member Profile Edits
   And I click "save button"
   And I wait for 5 seconds
 Then I verify "New Name generated" is displayed on account page
+
+@account-buy-membership-invalid-card
+Scenario: Member attempts to buy membership with invalid card details
