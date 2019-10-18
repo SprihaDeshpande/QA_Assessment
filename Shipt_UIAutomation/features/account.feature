@@ -13,3 +13,5 @@ Background:
 @account-member-profile-edits
 Scenario: Test Member Profile Edits
   And I click "edit profile button"
+  And I edit member details
+  And I wait for 2 seconds
