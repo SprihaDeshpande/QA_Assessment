@@ -5,5 +5,7 @@ $dictionary = {
   "edit profile button" => "//button[@data-test='ProfileForm-edit-button']",
   "save button" => "//button[@data-test='ProfileForm-save-button']",
   "start free trial button" => "//button[@aria-label='Annual Plan, Start Free Trial']",
-  "credit card save button" => "//button[@data-test='CreditCardForm-save-button']"
+  "credit card save button" => "//button[@data-test='CreditCardForm-save-button']",
+  "log out button" => "//span[contains(text(), 'Log Out')]",
+  "yes on logout portal" => "//button[@data-test='Confirmation-modal-accept-button']"
 }

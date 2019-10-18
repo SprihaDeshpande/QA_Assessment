@@ -25,3 +25,10 @@ Scenario: Member attempts to buy membership with invalid card details
   And I wait for 2 seconds
   And I click "credit card save button"
 Then I verify "Your card number is invalid." is displayed on account page
+
+@account-logout-successful
+Scenario: Member logs out of account successfully
+  And I click "log out button"
+  And I click "yes on logout portal"
+  And I wait for 2 seconds
+Then I verify "Welcome Back!" is displayed on account page
