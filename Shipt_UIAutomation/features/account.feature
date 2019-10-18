@@ -6,3 +6,4 @@ Scenario: Test Shipt Account Page
   And I enter good credentials on to login
   And I wait for 2 seconds
   And I click "login button"
+  And I wait for 2 seconds

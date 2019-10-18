@@ -13,5 +13,5 @@ When /^I enter good credentials on to login?$/ do
 end
 
 When /^I click "([^"]*)"$/ do |button_name|
-@browser.button.click
+@browser.button(visible_text: "LOG IN").click
 end
