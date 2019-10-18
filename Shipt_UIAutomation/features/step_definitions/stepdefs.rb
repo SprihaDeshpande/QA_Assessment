@@ -13,5 +13,9 @@ When /^I enter good credentials on to login?$/ do
 end
 
 When /^I click "([^"]*)"$/ do |button_name|
-@browser.button(visible_text: "LOG IN").click
+if button_name=="login button"
+  @browser.button(visible_text: "LOG IN").click
+else
+  @browser.element(:xpath => '//a[@href="/account/profile"]').click
+end
 end
