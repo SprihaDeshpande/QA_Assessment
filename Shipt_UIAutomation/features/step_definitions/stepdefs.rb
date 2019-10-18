@@ -1,6 +1,6 @@
 Given(/^I navigate to "([^"]*)"$/) do |term|
 @browser ||= Watir::Browser.new :Chrome
-@browser.goto "https://staging-shop.shipt.com/"
+@browser.goto "https://shop.shipt.com/"
 end
 
 When /^I wait for (\d+) seconds?$/ do |n|
