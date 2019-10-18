@@ -20,3 +20,8 @@ Then I verify "New Name generated" is displayed on account page
 
 @account-buy-membership-invalid-card
 Scenario: Member attempts to buy membership with invalid card details
+  And I click "start free trial button"
+  And I enter bad card credentials
+  And I wait for 2 seconds
+  And I click "credit card save button"
+Then I verify "Your card number is invalid." is displayed on account page

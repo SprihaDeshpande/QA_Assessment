@@ -8,8 +8,8 @@ When /^I wait for (\d+) seconds?$/ do |n|
 end
 
 When /^I enter good credentials on to login?$/ do
-    @browser.text_field(:xpath => '//input[@data-test="LoginForm-emailField"]').set "spriha@shipt.com"
-    @browser.text_field(:xpath => '//input[@type="password"]').set("Spriha@123")
+    @browser.text_field(:xpath => '//input[@data-test="LoginForm-emailField"]').set "spriha@shipt123.com"
+    @browser.text_field(:xpath => '//input[@type="password"]').set("Welcome123")
 end
 
 When /^I click "([^"]*)"$/ do |button_name|
@@ -38,5 +38,18 @@ end
 Then("I verify {string} is displayed on account page") do |text|
   if text == "New Name generated"
     @browser.button(visible_text: $string)
+  else
+    @browser.button(visible_text: text)
   end
+end
+
+Then("I enter bad card credentials") do
+  card_number = "4242424242424241"
+  date = "10/22"
+  CVV_number = rand(200..999)
+  ZIP = rand(11111..99999)
+  @browser.iframe(:xpath => "/html/body/div[6]/div/div/div/div[2]/section/form/div[2]/div[1]/div/div/div/iframe").text_field(:xpath => "//input[@name='cardnumber']").set card_number
+  @browser.iframe(:xpath => "/html/body/div[6]/div/div/div/div[2]/section/form/div[2]/div[2]/div/div/div/iframe").text_field(:xpath => "//input[@name='exp-date']").set date
+  @browser.iframe(:xpath => "/html/body/div[6]/div/div/div/div[2]/section/form/div[2]/div[3]/div/div/div/iframe").text_field(:xpath => "//input[@name='cvc']").set CVV_number
+  @browser.text_field(:xpath => "//input[@id='zipcode']").set ZIP
 end
