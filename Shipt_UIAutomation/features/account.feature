@@ -7,4 +7,5 @@ Scenario: Test Shipt Account Page
   And I wait for 2 seconds
   And I click "login button"
   And I wait for 2 seconds
-  And I click "account"
+  And I click "account button"
+  And I wait for 2 seconds

@@ -1,3 +1,7 @@
+$loginbutton = '//button[@data-test="LoginForm-log-in-button"]'
+$accountbutton = '//a[@href="/account/profile"]'
+
+
 Given(/^I navigate to "([^"]*)"$/) do |term|
 @browser ||= Watir::Browser.new :Chrome
 @browser.goto "https://shop.shipt.com/"
@@ -13,9 +17,11 @@ When /^I enter good credentials on to login?$/ do
 end
 
 When /^I click "([^"]*)"$/ do |button_name|
-if button_name=="login button"
-  @browser.button(visible_text: "LOG IN").click
-else
-  @browser.element(:xpath => '//a[@href="/account/profile"]').click
-end
+  $vars = ""
+  if button_name=="login button"
+    $vars = $loginbutton
+  elsif button_name=="account button"
+    $vars = $accountbutton
+  end
+  @browser.element(:xpath => $vars).click
 end
