@@ -1,6 +1,6 @@
 @account-page
 Feature: Test Account Feature on Shipt
-Scenario: Test Shipt Account Page
+Background:
   Given I navigate to "Shipt"
   And I wait for 2 seconds
   And I enter good credentials on to login
@@ -9,3 +9,7 @@ Scenario: Test Shipt Account Page
   And I wait for 2 seconds
   And I click "account button"
   And I wait for 2 seconds
+
+@account-member-profile-edits
+Scenario: Test Member Profile Edits
+  And I click "edit profile button"
