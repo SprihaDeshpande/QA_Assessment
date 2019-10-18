@@ -14,4 +14,6 @@ Background:
 Scenario: Test Member Profile Edits
   And I click "edit profile button"
   And I edit member details
-  And I wait for 2 seconds
+  And I click "save button"
+  And I wait for 5 seconds
+Then I verify "New Name generated" is displayed on account page

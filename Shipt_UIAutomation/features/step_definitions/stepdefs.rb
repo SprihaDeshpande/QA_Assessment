@@ -19,24 +19,30 @@ end
 
 Given("I edit member details") do
   o = [('a'..'z'), ('A'..'Z')].map(&:to_a).flatten
-  string = (0...10).map { o[rand(o.length)] }.join
+  $string = (0...10).map { o[rand(o.length)] }.join
   count1 = 0
   while count1 <50 and @browser.text_field(:xpath => '//input[@id="name"]').value != ""
     @browser.text_field(:xpath => '//input[@id="name"]').set(:backspace)
     count1 = count1+1
   end
-  count2 = 0
-  while count2 <50 and @browser.text_field(:xpath => '//input[@id="email"]').value != ""
-    @browser.text_field(:xpath => '//input[@id="email"]').set(:backspace)
-    count2 = count2+1
-  end
+  # count2 = 0
+  # while count2 <50 and @browser.text_field(:xpath => '//input[@id="email"]').value != ""
+  #   @browser.text_field(:xpath => '//input[@id="email"]').set(:backspace)
+  #   count2 = count2+1
+  # end
   count3 = 0
   while count3 <20 and @browser.text_field(:xpath => '//input[@id="phone"]').value != ""
     @browser.text_field(:xpath => '//input[@id="phone"]').send_keys :backspace
     count3 = count3+1
   end
-  @browser.text_field(:xpath => '//input[@id="name"]').set string
-  @browser.text_field(:xpath => '//input[@id="email"]').set string+"shipt123.com"
-  generated_phone_number=rand(10 ** 10).to_s.rjust(10,'0')
+  @browser.text_field(:xpath => '//input[@id="name"]').set $string
+  # @browser.text_field(:xpath => '//input[@id="email"]').set @string+"@shipt123.com"
+  generated_phone_number = rand(10 ** 10).to_s.rjust(10,'0')
   @browser.text_field(:xpath => '//input[@id="phone"]').set generated_phone_number
+end
+
+Then("I verify {string} is displayed on account page") do |text|
+  if text == "New Name generated"
+    @browser.button(visible_text: $string)
+  end
 end
