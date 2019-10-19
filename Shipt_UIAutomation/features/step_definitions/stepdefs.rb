@@ -74,7 +74,8 @@ Then("I enter bad card credentials") do
   @browser.text_field(:xpath => "//input[@id='zipcode']").set ZIP
 end
 
-
+# Here we enter a particular string on the element locator
+# Hence we store the text in the form of a variable, find the locator through our selector file and then send the keys to the respective field.
 Given("I enter text {string} on {string}") do |string, string2|
   @variable = string
   $vars = $dictionary[string2]
