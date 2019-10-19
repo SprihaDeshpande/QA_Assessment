@@ -32,3 +32,12 @@ Scenario: Member logs out of account successfully
   And I click "yes on logout portal"
   And I wait for 2 seconds
 Then I verify "Welcome Back!" is displayed on account page
+
+@account-test-for-mandatory-zipcode
+Scenario: Zip code field cannot remain empty
+  And I click "addresses tab"
+  And I click "add an address"
+  And I enter text "123 California Ave" on "Street1 Address Line"
+  And I enter text "San Francisco" on "Town Field"
+  And I enter text "CA" on "State Field"
+  And I click "save button on payment modal"
