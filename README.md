@@ -77,7 +77,7 @@ In here we automate the test feature Account Page. Make sure you have the follow
 
 ### **Answer to Question6**:
 
-In here we perform API Automation. All the code and utilities are in the git hub repo => [link for API Automation] (https://github.com/SprihaDeshpande/Shipt_QA_Assessment/tree/master/APIAutomation)
+In here we perform API Automation. All the code and utilities are in the git hub repo => [link for API Automation](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/tree/master/APIAutomation)
 
 We do API Testing through Pytest. All the code is written in Python3.
 
