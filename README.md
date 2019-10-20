@@ -1,5 +1,5 @@
 # Shipt QA Assessment Project
-<img width="143" alt="Screen Shot 2019-10-19 at 8 28 02 PM" src="https://user-images.githubusercontent.com/50254090/67154311-f7f87f80-f2ae-11e9-9e27-4d5b91a07b5f.png">
+                                <img width="143" alt="Screen Shot 2019-10-19 at 8 28 02 PM" src="https://user-images.githubusercontent.com/50254090/67154311-f7f87f80-f2ae-11e9-9e27-4d5b91a07b5f.png">
 
 Hello folks! Welcome to Shipt QA Assessment Project. Here, we go through the assessment questions in the following file attached in the git repo => [link to Shipt QA Assessment](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/Assessment%20Questions.pdf)
 
