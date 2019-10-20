@@ -77,12 +77,31 @@ In here we perform API Automation. All the code and utilities are in the git hub
 
 We do API Testing through Pytest. All the code is written in Python3.
 
+Install pip and homebrew through this link:
+- [Install pip](https://pip.pypa.io/en/stable/installing/)
+- [Install homebrew](https://brew.sh/)
+
 Installation options:
 - `pip install -U pytest` 
 - `easy_install -U pytest`
  
 To execute type the following on the terminal post downloading the files
 - `pytest -v`
+
+Unable to run pytest? Try the following steps on command prompt:
+- `brew uninstall python`
+- `brew install python`
+- `sudo python -m pip uninstall pip`
+- `brew uninstall python && brew install python`
+- `brew link python`
+- `pip install pytest` or `pip3 install pytest`
+
+Make sure you have request module installed:
+- `sudo pip install requests` or `pip3 install requests`
+
+Now try execution again by running the following command on terminal:
+- `pytest -v`
+
 
 This will execute all the test cases and along with assertions error being displayed.
 <img width="1658" alt="Screen Shot 2019-10-19 at 5 59 37 PM" src="https://user-images.githubusercontent.com/50254090/67153283-23716f00-f29b-11e9-949a-68acec24f53a.png">
