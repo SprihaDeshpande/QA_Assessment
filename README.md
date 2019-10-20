@@ -12,3 +12,10 @@ Here we have covered test cases for Account Feature and pursued the test around 
 or you can go here => [folder for Viewing Test Cases in numbers](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/Question1_Shipt_TestCases.numbers)
 
 -------------------------------------------------------------------------------------------------------------------------
+
+### **Answer to Question1**: 
+
+In this answer we give an insight to the bug and bad workflow. We look at a bug in production which does not go through selecting a store post modifying the ZIP code value on the address modal in account page. This is of utmost concern and we give a priority of P2 for this bug. To dive deep into details, access this file =>
+
+Also, refer the screen recording for more refernce into the bug. We see that in networking calls, the value of ZIP and stores are being updated. But do not reflect in changing the store and the loading does not terminate.
+
