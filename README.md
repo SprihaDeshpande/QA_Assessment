@@ -76,4 +76,4 @@ To execute type the following on the terminal post downloading the files
 - `pytest -v`
 
 This will execute all the test cases and along with assertions error being displayed.
-![image](file:///Users/enroll/Desktop/Screen%20Shot%202019-10-19%20at%205.59.37%20PM.png)
+![file:///Users/enroll/Desktop/Screen%20Shot%202019-10-19%20at%205.59.37%20PM.png]
