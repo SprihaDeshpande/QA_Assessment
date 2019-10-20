@@ -29,8 +29,8 @@ Also, refer the screen recording for more refernce into the bug. We see that in 
 ## **UI Automation**
 
 In here we automate the test feature Account Page. Make sure you have the following installed
-  - [Ruby!](https://www.ruby-lang.org/en/)
-  - [[Bundler!](https://bundler.io/)
+  - [Ruby](https://www.ruby-lang.org/en/)
+  - [Bundler](https://bundler.io/)
  
  To check if ruby and bundle are installed properly run the following commands on terminal to ensure the same.
  `ruby -v`
