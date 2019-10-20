@@ -84,7 +84,7 @@ This will execute all the test cases and along with assertions error being displ
 
 Above and Beyond API
 
-This is a continuity of Answer 6. In here we have files from the assessment folder =>[Click here for MOCK Server API](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/tree/master/MockAPI%20copy) 
+This is a continuity of Answer 6. In here we have files from the assessment folder =>[Click here for MOCK Server API files](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/tree/master/MockAPI%20copy) 
 
 Here we create a mock server that would return the same API.
 The link for the base URL is as follows => [Base URL of My Mock Server](https://07564992-22d5-4fe2-8fc7-b64a63c3a801.mock.pstmn.io/baseurl)
