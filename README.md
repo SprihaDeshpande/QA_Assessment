@@ -33,10 +33,10 @@ In here we automate the test feature Account Page. Make sure you have the follow
   - [Bundler](https://bundler.io/)
  
  To check if ruby and bundle are installed properly run the following commands on terminal to ensure the same.
- `ruby -v`
- `bundle -v`
+ - `ruby -v`
+ - `bundle -v`
  
  Next, we need to install cucumber and prepare the file structure. Enter the following commands on terminal to ensure the same in the file where we have downloaded the Shipt UI files => [Download Shipt UI Automation Files](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/tree/master/Shipt_UIAutomation)
- `bundle install`
- `cucumber --init`
+ - `bundle install`
+ - `cucumber --init`
  
