@@ -22,7 +22,9 @@ In this answer we give an insight to the bug and bad workflow. We look at a bug 
 
 Also, refer the screen recording for more refernce into the bug. We see that in networking calls, the value of ZIP and stores are being updated. But do not reflect in changing the store and the loading does not terminate.
 
-[View file for Screen Recording](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/bug_production.mov)
+#### [View file for Screen Recording](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/bug_production.mov)
+
+
 -------------------------------------------------------------------------------------------------------------------------
 
 ### **Answer to Question3**:
