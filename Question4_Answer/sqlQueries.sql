@@ -16,9 +16,6 @@ where ol.qty = (select max(ol.qty) from interview.order_lines ol));
 
 
 UPDATE interview.order_lines SET line_total = 100 WHERE line_total IS NULL; 
-
-
-
 SELECT * FROM interview.order_lines; 
 
 
