@@ -40,3 +40,24 @@ In here we automate the test feature Account Page. Make sure you have the follow
  - `bundle install`
  - `cucumber --init`
  
+ To run the whole of cucumber file, we can use the following command on terminal
+ - `cucumber` or `@account-page` for complete automation
+ 
+ To run scenario wise, we have the following scenarios and their tags
+ 
+ Scenario: Scenario: Test Member Profile Edits
+ - `cucumber --tags @account-member-profile-edits`
+ 
+ Scenario: Member attempts to buy membership with invalid card details
+  - `cucumber --tags @account-buy-membership-invalid-card`
+ 
+ Scenario: Member logs out of account successfully
+ - `cucumber --tags @account-logout-successful`
+ 
+ Scenario: Zip code field cannot remain empty
+  - `cucumber --tags @account-test-for-mandatory-zipcode`
+
+
+ 
+ 
+ 
