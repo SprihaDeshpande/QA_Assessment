@@ -78,3 +78,23 @@ To execute type the following on the terminal post downloading the files
 This will execute all the test cases and along with assertions error being displayed.
 <img width="1658" alt="Screen Shot 2019-10-19 at 5 59 37 PM" src="https://user-images.githubusercontent.com/50254090/67153283-23716f00-f29b-11e9-949a-68acec24f53a.png">
 
+-------------------------------------------------------------------------------------------------------------------------
+
+### **Answer to Question7**:
+
+Above and Beyond API
+
+This is a continuity of Answer 6. In here we have files from the assessment folder =>[Click here for MOCK Server API](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/tree/master/MockAPI%20copy) 
+
+Here we create a mock server that would return the same API.
+The link for the base URL is as follows => [Base URL of My Mock Server](https://07564992-22d5-4fe2-8fc7-b64a63c3a801.mock.pstmn.io/baseurl)
+
+The documentation for the Mock Server could be seen at => [Documentation for Mock Server Swapi.co](https://web.postman.co/collections/8513503-432264ea-a0a9-44ba-b711-fdeb24282e26?version=latest&workspace=53987046-ec3d-4853-891d-9324ba07bab8)
+
+Installation options:
+- `pip install -U pytest`  (If you have PIP installed)
+- `easy_install -U pytest`
+
+We can ideally run the same test by having the following command on terminal in the folder Mock API to execute the test: 
+- `pytest -v`
+
