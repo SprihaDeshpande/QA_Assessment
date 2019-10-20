@@ -53,7 +53,7 @@ In here we automate the test feature Account Page. Make sure you have the follow
  - `gem install watir`
  
  To run the whole of cucumber file, we can use the following command on terminal
- - `cucumber` or `@account-page` for complete automation
+ - `cucumber` or `cucumber --tags @account-page` for complete automation (Includes all scenarios)
  
  To run scenario wise, we have the following scenarios and their tags
  
@@ -68,6 +68,10 @@ In here we automate the test feature Account Page. Make sure you have the follow
  
  Scenario: Zip code field cannot remain empty
   - `cucumber --tags @account-test-for-mandatory-zipcode`
+  
+  Screen shot for test results of all scenarios should look like this:
+  <img width="1191" alt="Screen Shot 2019-10-20 at 10 00 28 AM" src="https://user-images.githubusercontent.com/50254090/67163151-7d684800-f320-11e9-81bf-9a7f03cb676d.png">
+
 
 -------------------------------------------------------------------------------------------------------------------------
 
