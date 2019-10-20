@@ -40,6 +40,9 @@ In here we automate the test feature Account Page. Make sure you have the follow
  - `bundle install`
  - `cucumber --init`
  
+ Since we use Watir webdrive make sure to have this gem installed
+ - `gem install watir`
+ 
  To run the whole of cucumber file, we can use the following command on terminal
  - `cucumber` or `@account-page` for complete automation
  
@@ -57,7 +60,20 @@ In here we automate the test feature Account Page. Make sure you have the follow
  Scenario: Zip code field cannot remain empty
   - `cucumber --tags @account-test-for-mandatory-zipcode`
 
+-------------------------------------------------------------------------------------------------------------------------
 
+### **Answer to Question6**:
+
+In here we perform API Automation. All the code and utilities are in the git hub repo => [link for API Automation] (https://github.com/SprihaDeshpande/Shipt_QA_Assessment/tree/master/APIAutomation)
+
+We do API Testing through Pytest. All the code is written in Python3.
+
+Installation options:
+- `pip install -U pytest` 
+- `easy_install -U pytest`
  
- 
- 
+To execute type the following on the terminal post downloading the files
+- `pytest -v`
+
+This will execute all the test cases and along with assertions error being displayed.
+![image](file:///Users/enroll/Desktop/Screen%20Shot%202019-10-19%20at%205.59.37%20PM.png)
