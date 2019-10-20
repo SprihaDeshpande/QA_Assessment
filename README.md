@@ -20,3 +20,23 @@ In this answer we give an insight to the bug and bad workflow. We look at a bug 
 Also, refer the screen recording for more refernce into the bug. We see that in networking calls, the value of ZIP and stores are being updated. But do not reflect in changing the store and the loading does not terminate.
 
 [View file for Screen Recording](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/bug_production.mov)
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+### **Answer to Question5**:
+
+## **UI Automation**
+
+In here we automate the test feature Account Page. Make sure you have the following installed
+  - [Ruby!](https://www.ruby-lang.org/en/)
+  - [[Bundler!](https://bundler.io/)
+ 
+ To check if ruby and bundle are installed properly run the following commands on terminal to ensure the same.
+ `ruby -v`
+ `bundle -v`
+ 
+ Next, we need to install cucumber and prepare the file structure. Enter the following commands on terminal to ensure the same in the file where we have downloaded the Shipt UI files => [Download Shipt UI Automation Files](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/tree/master/Shipt_UIAutomation)
+ `bundle install`
+ `cucumber --init`
+ 
