@@ -1,7 +1,7 @@
-# Shipt_UIAutomation
-Shipt QA Assessment Project
+# Shipt QA Assessment Project
+![shipt-shopper-first-day](https://user-images.githubusercontent.com/50254090/67154300-bff13c80-f2ae-11e9-923e-3e3826a96723.jpg)
 
-Hello! Welcome to Shipt QA Assessment Project. Here, we go through the assessment questions in the following file attached in the git repo => [link to Shipt QA Assessment](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/Assessment%20Questions.pdf)
+Hello folks! Welcome to Shipt QA Assessment Project. Here, we go through the assessment questions in the following file attached in the git repo => [link to Shipt QA Assessment](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/Assessment%20Questions.pdf)
 
 -------------------------------------------------------------------------------------------------------------------------
 
