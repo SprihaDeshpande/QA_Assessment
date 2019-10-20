@@ -1,7 +1,10 @@
-# Shipt_UIAutomation
-Shipt QA Assessment Project
 
-Hello! Welcome to Shipt QA Assessment Project. Here, we go through the assessment questions in the following file attached in the git repo => [link to Shipt QA Assessment](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/Assessment%20Questions.pdf)
+   <img width="143" alt="Screen Shot 2019-10-19 at 8 28 02 PM" src="https://user-images.githubusercontent.com/50254090/67154311-f7f87f80-f2ae-11e9-9e27-4d5b91a07b5f.png">
+
+
+# Shipt QA Assessment Project
+
+Hello folks! Welcome to Shipt QA Assessment Project. Here, we go through the assessment questions in the following file attached in the git repo => [link to Shipt QA Assessment](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/Assessment%20Questions.pdf)
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -15,7 +18,7 @@ or you can go here => [folder for Viewing Test Cases in numbers](https://github.
 
 ### **Answer to Question2**: 
 
-In this answer we give an insight to the bug and bad workflow. We look at a bug in production which does not go through selecting a store post modifying the ZIP code value on the address modal in account page. This is of utmost concern and we give a priority of P2 for this bug. To dive deep into details, access this file => 
+In this answer we give an insight to the bug and bad workflow. We look at a bug in production which does not go through selecting a store post modifying the ZIP code value on the address modal in account page. This is of utmost concern and we give a priority of P2 for this bug. To dive deep into details, access this file => [File for Bug Details](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/Question2_Answer.pdf)
 
 Also, refer the screen recording for more refernce into the bug. We see that in networking calls, the value of ZIP and stores are being updated. But do not reflect in changing the store and the loading does not terminate.
 
