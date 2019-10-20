@@ -13,9 +13,10 @@ or you can go here => [folder for Viewing Test Cases in numbers](https://github.
 
 -------------------------------------------------------------------------------------------------------------------------
 
-### **Answer to Question1**: 
+### **Answer to Question2**: 
 
-In this answer we give an insight to the bug and bad workflow. We look at a bug in production which does not go through selecting a store post modifying the ZIP code value on the address modal in account page. This is of utmost concern and we give a priority of P2 for this bug. To dive deep into details, access this file =>
+In this answer we give an insight to the bug and bad workflow. We look at a bug in production which does not go through selecting a store post modifying the ZIP code value on the address modal in account page. This is of utmost concern and we give a priority of P2 for this bug. To dive deep into details, access this file => 
 
 Also, refer the screen recording for more refernce into the bug. We see that in networking calls, the value of ZIP and stores are being updated. But do not reflect in changing the store and the loading does not terminate.
 
+[View file for Screen Recording](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/bug_production.mov)
