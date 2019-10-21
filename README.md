@@ -128,7 +128,7 @@ This will execute all the test cases and along with assertions error being displ
 
 ### **Answer to Question7**:
 
-## **API Automation With Mock Servers**
+## **API Automation With Mock Server**
 
 **Above and Beyond API**
 
