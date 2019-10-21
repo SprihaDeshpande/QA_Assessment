@@ -55,7 +55,7 @@ In here we automate the test feature Account Page. Make sure you have the follow
  - `ruby -v`
  - `bundle -v`
  
- Next, we need to install cucumber and prepare the file structure. Enter the following commands on terminal to ensure the same in the file where we have downloaded the Shipt UI files => [Download Shipt UI Automation Files](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/tree/master/Shipt_UIAutomation)
+ Next, we need to install cucumber and prepare the file structure. Enter the following commands on terminal to ensure the same in the file where we have downloaded the Shipt UI files => [Link for Shipt UI Automation Files](https://github.com/SprihaDeshpande/QA_Assessment/tree/master/Question5_UIAutomation)
  - `bundle install`
  - `cucumber --init`
  
@@ -67,16 +67,16 @@ In here we automate the test feature Account Page. Make sure you have the follow
  
  To run scenario wise, we have the following scenarios and their tags
  
- Scenario: Scenario: Test Member Profile Edits
+ **Scenario: Test Member Profile Edits**
  - `cucumber --tags @account-member-profile-edits`
  
- Scenario: Member attempts to buy membership with invalid card details
+ **Scenario: Member attempts to buy membership with invalid card details**
   - `cucumber --tags @account-buy-membership-invalid-card`
  
- Scenario: Member logs out of account successfully
+ **Scenario: Member logs out of account successfully**
  - `cucumber --tags @account-logout-successful`
  
- Scenario: Zip code field cannot remain empty
+ **Scenario: Zip code field cannot remain empty**
   - `cucumber --tags @account-test-for-mandatory-zipcode`
   
   Screen shot for test results of all scenarios should look like this:
@@ -87,7 +87,7 @@ In here we automate the test feature Account Page. Make sure you have the follow
 
 ### **Answer to Question6**:
 
-In here we perform API Automation. All the code and utilities are in the git hub repo => [link for API Automation](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/tree/master/APIAutomation)
+In here we perform API Automation. All the code and utilities are in the git hub repo => [link for API Automation](https://github.com/SprihaDeshpande/QA_Assessment/tree/master/Question6_APIAutomation)
 
 We do API Testing through Pytest. All the code is written in Python3.
 
@@ -126,7 +126,7 @@ This will execute all the test cases and along with assertions error being displ
 
 Above and Beyond API
 
-This is a continuity of Answer 6. In here we have files from the assessment folder =>[Click here for MOCK Server API files](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/tree/master/MockAPI%20copy) 
+This is a continuity of Answer 6. In here we have files from the assessment folder =>[Click here for MOCK Server API files](https://github.com/SprihaDeshpande/QA_Assessment/tree/master/Question7_MockAPI_Save) 
 
 Here we create a mock server that would return the same API.
 The link for the base URL is as follows => [Base URL of My Mock Server](https://07564992-22d5-4fe2-8fc7-b64a63c3a801.mock.pstmn.io/baseurl)
