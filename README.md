@@ -10,7 +10,7 @@ Hello folks! Welcome to Shipt QA Assessment Project. Here, we go through the ass
 
 ### **Answer to Question1**: 
 
-Here we have covered test cases for Account Feature and pursued the test around Positive and Negative Testing. The features functionality, along with steps to replicate manually, with expected and actual results are documented in the following folder. => [folder for Viewing Test Cases in excel](https://github.com/SprihaDeshpande/QA_Assessment/blob/master/Question1_Shipt_TestCases.pdf)
+Here we have covered test cases for Account Feature and pursued the test around Positive and Negative Testing. The features functionality, along with steps to replicate manually, with expected and actual results are documented in the following folder. => [folder for Viewing Test Cases for Account Feature](https://github.com/SprihaDeshpande/QA_Assessment/blob/master/Question1_Shipt_TestCases.pdf)
 
 -------------------------------------------------------------------------------------------------------------------------
 
