@@ -148,6 +148,6 @@ We can ideally run the same test by having the following command on terminal in 
 
 ### **Answer to Question8**:
 
-Here we answer the questions based on tools used throughout the project and look into concenpts of making a test consistent.
+Here we answer the questions based on tools used throughout the project and look into concents of making a test consistent.
 
 The document attached is as follows => [View file for Answer 8](https://github.com/SprihaDeshpande/QA_Assessment/blob/master/Question8_Answer.pdf)
