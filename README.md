@@ -47,6 +47,8 @@ View all files and folders for SQL query answers => [Files for Query Answers](ht
 
 ## **UI Automation**
 
+To run this test go to the Folder `/Question5_UIAutomation/` on your terminal in the folder where this project is cloned
+
 In here we automate the test feature Account Page. Make sure you have the following installed
   - [Ruby](https://www.ruby-lang.org/en/)
   - [Bundler](https://bundler.io/)
@@ -87,6 +89,8 @@ In here we automate the test feature Account Page. Make sure you have the follow
 
 ### **Answer to Question6**:
 
+To run this test go to the Folder `/Question6_APIAutomation/` on your terminal in the folder where this project is cloned
+
 In here we perform API Automation. All the code and utilities are in the git hub repo => [link for API Automation](https://github.com/SprihaDeshpande/QA_Assessment/tree/master/Question6_APIAutomation)
 
 We do API Testing through Pytest. All the code is written in Python3.
@@ -125,6 +129,8 @@ This will execute all the test cases and along with assertions error being displ
 ### **Answer to Question7**:
 
 Above and Beyond API
+
+To run this test go to the Folder `/Question7_MockAPI_Save/` on your terminal in the folder where this project is cloned
 
 This is a continuity of Answer 6. In here we have files from the assessment folder =>[Click here for MOCK Server API files](https://github.com/SprihaDeshpande/QA_Assessment/tree/master/Question7_MockAPI_Save) 
 
