@@ -4,7 +4,7 @@
 
 # Shipt QA Assessment Project
 
-Hello folks! Welcome to Shipt QA Assessment Project. Here, we go through the assessment questions in the following file attached in the git repo => [link to Shipt QA Assessment](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/Assessment%20Questions.pdf)
+Hello folks! Welcome to Shipt QA Assessment Project. Here, we go through the assessment questions in the following file attached in the git repo => [link to Shipt QA Assessment](https://github.com/SprihaDeshpande/QA_Assessment/blob/master/Assessment%20Questions.pdf)
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -22,14 +22,13 @@ In this answer we give an insight to the bug and bad workflow. We look at a bug 
 
 Also, refer the screen recording for more refernce into the bug. We see that in networking calls, the value of ZIP and stores are being updated. But do not reflect in changing the store and the loading does not terminate.
 
-#### [View file for Screen Recording](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/bug_production.mov)
-
+#### [View file for Screen Recording](https://github.com/SprihaDeshpande/QA_Assessment/blob/master/Question2_Answer.pdf)
 
 -------------------------------------------------------------------------------------------------------------------------
 
 ### **Answer to Question3**:
 
-This answer will provide a detail to lapses in updating values by the user. The following file will retrieve the detailed description to obtaining the reasons and exploring methods to debug when an issue occurs with updating user fields that do not reflect on the system. => [File for Detailing and Debugging Question3](https://github.com/SprihaDeshpande/Shipt_QA_Assessment/blob/master/Question3_Answer.pdf)
+This answer will provide a detail to lapses in updating values by the user. The following file will retrieve the detailed description to obtaining the reasons and exploring methods to debug when an issue occurs with updating user fields that do not reflect on the system. => [File for Detailing and Debugging Question3](https://github.com/SprihaDeshpande/QA_Assessment/blob/master/Question3_Answer.pdf)
 
 -------------------------------------------------------------------------------------------------------------------------
 
