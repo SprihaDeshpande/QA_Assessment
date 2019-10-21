@@ -33,6 +33,17 @@ This answer will provide a detail to lapses in updating values by the user. The 
 
 -------------------------------------------------------------------------------------------------------------------------
 
+### **Answer to Question4**:
+
+This link provides queries for the SQL questions. We make use of MySql workbench. To run the file, we could run it on MySql workbench.
+
+[Link to download and set up MySQL Workbench](https://www.mysql.com/products/workbench/)
+
+View all files and folders for SQL query answers => [Files for Query Answers](https://github.com/SprihaDeshpande/QA_Assessment/tree/master/Question4_Answer)
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
 ### **Answer to Question5**:
 
 ## **UI Automation**
