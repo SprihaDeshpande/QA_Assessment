@@ -87,6 +87,8 @@ In here we automate the test feature Account Page. Make sure you have the follow
 
 ### **Answer to Question6**:
 
+## **API Automation**
+
 To run this test go to the Folder `/Question6_APIAutomation/` on your terminal in the folder where this project is cloned
 
 In here we perform API Automation. All the code and utilities are in the git hub repo => [link for API Automation](https://github.com/SprihaDeshpande/QA_Assessment/tree/master/Question6_APIAutomation)
@@ -126,7 +128,9 @@ This will execute all the test cases and along with assertions error being displ
 
 ### **Answer to Question7**:
 
-Above and Beyond API
+## **API Automation With Mock Servers**
+
+**Above and Beyond API**
 
 To run this test go to the Folder `/Question7_MockAPI_Save/` on your terminal in the folder where this project is cloned
 
